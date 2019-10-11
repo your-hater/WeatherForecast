@@ -1,0 +1,136 @@
+* {
+  transition: all 0.7s ease-in-out;
+}
+
+.body {
+  background-color: rgb(10, 93, 161);
+
+  margin-top: 100px;
+}
+
+.div {
+  width: 80%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  font-size: 0px;
+  text-align: center;
+  border: #2a69a6 0 0 0 3px, #2a69a6 0 0 0 1px;
+}
+
+.list:hover > li {
+  opacity: 0.3;
+}
+.list li:hover {
+  opacity: 1;
+  transform: skew(15deg) scale(1.2) rotateX(360deg);
+}
+
+.list li {
+  display: inline-block;
+  font-size: 34px;
+  height: 100px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.p {
+  font-size: 34px;
+  font-weight: 900;
+  margin-bottom: 15px;
+  color: whitesmoke;
+}
+
+.Lisbon {
+  width: 50%;
+  background-color: rgb(60, 116, 190);
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  color: whitesmoke;
+}
+
+.Paris {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(51, 204, 196);
+  color: whitesmoke;
+}
+
+.Belgrade {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(114, 55, 163);
+  color: whitesmoke;
+}
+
+.Moscow {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: red;
+  color: whitesmoke;
+}
+
+.TelAviv {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(240, 78, 3);
+  color: whitesmoke;
+}
+
+.Cair {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(250, 212, 44);
+  color: whitesmoke;
+}
+
+.NewYork {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(129, 255, 202);
+  color: whitesmoke;
+}
+
+.NewDelhi {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(97, 148, 139);
+  color: whitesmoke;
+}
+
+.SanFrancisco {
+  width: 50%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(236, 88, 192);
+  color: whitesmoke;
+}
+
+.Tokyo {
+  width: 25%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(90, 167, 100);
+  color: whitesmoke;
+}
+
+.Sydney {
+  width: 100%;
+  box-shadow: #ffffff 0 0 0 0px, #fff 0 0 0 4px;
+  background-color: rgb(101, 59, 199);
+  color: whitesmoke;
+}
+
+.list .Lisbon:hover {
+  color: whitesmoke;
+}
+
+.footer {
+  margin-top: 20px;
+  color: whitesmoke;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
